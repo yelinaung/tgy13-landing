@@ -6,6 +6,23 @@ body {
 	background-size: cover;
 }
 
+#box {
+	background-position: initial initial; 
+	background-repeat: initial initial;
+	background-color: rgba(0, 0, 0, 0.592157);
+	
+}
+
+#box h1 {
+	color: #fff;
+}
+
+#box p {
+	font-family:Zawgyi-One;
+	color: #fff;
+	opacity: 1;
+}
+
 #footer{
 	padding: 5px 0;
 	background: #0d0a06;
@@ -15,8 +32,7 @@ body {
 	bottom: 0px;
 	width: 100%;
 	z-index: 1000;
-	opacity:0.6;
-  	filter:alpha(opacity=60); /* For IE8 and earlier */
+	background-color: rgba(0, 0, 0, 0.592157);
 }
 
 #social a {
