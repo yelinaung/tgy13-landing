@@ -1,0 +1,30 @@
+body {
+	background:url("../img/thingyan.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+#footer{
+	padding: 10px 0;
+	background: #0d0a06;
+	color: #fff;
+	bottom:0px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	z-index: 1000;
+	opacity:0.6;
+  	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#footer #credits {
+ 	position: relative;
+  	top: 8px;
+}
+
+#social a {
+	float: right;
+  	margin-left: 10px;
+}
