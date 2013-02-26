@@ -6,21 +6,35 @@ body {
 	background-size: cover;
 }
 
+.container {
+	position: relative;
+}
+
 #box {
 	background-position: initial initial; 
 	background-repeat: initial initial;
+	margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.592157);
-	
+ 	-moz-border-radius:5px;	
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+	margin-top: 10%;
+	width: 450px;
+	padding: 1%;
+	text-align: center;
 }
 
-#box h1 {
+#box h3 {
 	color: #fff;
+	font-family: 'Roboto', sans-serif;
 }
 
 #box p {
 	font-family:Zawgyi-One;
 	color: #fff;
 	opacity: 1;
+	font-weight: 100;
 }
 
 #footer{
