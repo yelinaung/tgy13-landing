@@ -7,7 +7,7 @@ body {
 }
 
 #footer{
-	padding: 10px 0;
+	padding: 5px 0;
 	background: #0d0a06;
 	color: #fff;
 	bottom:0px;
@@ -19,12 +19,12 @@ body {
   	filter:alpha(opacity=60); /* For IE8 and earlier */
 }
 
-#footer #credits {
- 	position: relative;
-  	top: 8px;
-}
-
 #social a {
+	padding: 5px 0;
 	float: right;
   	margin-left: 10px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+		font-family: 'Open Sans', sans-serif;
 }
