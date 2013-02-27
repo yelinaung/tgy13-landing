@@ -19,8 +19,8 @@ body {
 	-webkit-border-radius: 5px;
 	border-radius: 5px; /* future proofing */
 	-khtml-border-radius: 5px; /* for old Konqueror browsers */
-	margin-top: 10%;
-	width: 450px;
+	margin-top: 5%;
+	width: 430px;
 	padding: 1%;
 	text-align: center;
 }
@@ -35,6 +35,7 @@ body {
 	color: #fff;
 	opacity: 1;
 	font-weight: 100;
+	line-height: 200%;
 }
 
 #footer{
