@@ -1,9 +1,10 @@
 body {
-	background:url("../img/thingyan.jpg") no-repeat center center fixed;
+	background:url("../img/bg.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
 	background-size: cover;
+	background-color: #f8ead4;
 }
 
 .container {
@@ -25,9 +26,9 @@ body {
 	text-align: center;
 }
 
-#box h3 {
+#box h1 {
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
+font-family: 'Courgette', cursive;
 }
 
 #box p {
